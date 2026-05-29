@@ -1,10 +1,7 @@
 
----
+# 2. Eureka Server 
 
-# 📌 2. Eureka Server – README.md
 
-```md
-# Eureka Server
 
 This is the Service Registry for the Microservices Architecture project using Spring Cloud Netflix Eureka.
 
