@@ -1,5 +1,5 @@
 
-# User Service – README.md
+# User Service
 
 ```md
 # User Service
