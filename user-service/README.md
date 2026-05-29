@@ -1,27 +1,40 @@
-This is the User Microservice in a Spring Cloud Microservices Architecture.
+# User Service
 
-Overview
+This is the User Microservice in a Spring Cloud Microservices Architecture project.
 
-The User Service handles all user-related operations such as:
+---
 
-Creating users
-Fetching user details
-Updating user data
-Deleting users
+## Overview
+The User Service is responsible for managing user-related operations such as:
+- Creating users
+- Fetching user details
+- Updating user information
+- Deleting users
 
-It registers itself with Eureka Server and is accessed via the API Gateway.
+It is a core microservice that registers itself with Eureka Server and is accessed through the API Gateway.
 
-Tech Stack
-Java
-Spring Boot
-Spring Web
-Spring Data JPA
-Spring Cloud Netflix Eureka Client
-MySQL / H2 Database
-Maven
-Features
-REST APIs for user management
-Service registration with Eureka
-Database integration using JPA/Hibernate
-Exception handling
-Layered architecture (Controller, Service, Repository)
+---
+
+## Tech Stack
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring Cloud Netflix Eureka Client
+- MySQL / H2 Database
+- Maven
+
+---
+
+## Features
+- RESTful APIs for user management
+- Service registration with Eureka Server
+- Database integration using JPA/Hibernate
+- Layered architecture (Controller, Service, Repository)
+- Exception handling support
+
+---
+
+## Sample API Endpoints
+
+### Create User
